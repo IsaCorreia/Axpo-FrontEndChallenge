@@ -3,7 +3,7 @@
 ![Descripción](challenge.png)
 
 ## Overview
-Build a responsive “Contract Onboarding” page based on the provided reference image. Implement an accessible, reusable accordion component that toggles expand/collapse when clicking the red chevron/arrow. Render this accordion component four times on the page, each showing a contract summary block.
+Build a responsive “Contract Onboarding” page based on the provided reference image. Implement an accessible, reusable accordion component that toggles expand/collapse when clicking the red chevron/arrow. Render this accordion component two times on the page, each showing a contract summary block.
 
 You may use any frontend stack. Blazor is preferred
 ## Requirements
@@ -13,7 +13,7 @@ You may use any frontend stack. Blazor is preferred
 - Reusable Accordion component:
 	- Props: Title, ChildContent (or equivalent)
 	- Toggle expand/collapse by clicking the red chevron button
-	- Used 4 times, each labeled “Overview”
+	- Used 2 times, each labeled “Overview”
 - Accordion content (when expanded) shows:
 	- Contract Type: “Existing Client – New Business”
 	- Commodity: “Power”
@@ -22,7 +22,7 @@ You may use any frontend stack. Blazor is preferred
 	- Period: “01/01/2023 – 31/12/2027”
 
 ## Responsiveness
-- Desktop (≥1200px): two-column grid of 4 accordions (2x2)
+- Desktop (≥1200px): two-column grid of 2 accordions (2x1)
 - Tablet (~768–1199px): two columns if space allows; otherwise one column
 - Mobile (≤767px): single column; content stacks cleanly; no horizontal scroll
 
