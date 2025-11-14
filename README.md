@@ -47,7 +47,7 @@ You may use any frontend stack. Blazor is preferred
 ```
 color: var(--text-highlight, #1F1F1F);
 
-/* Heading/Almarena mono/H3 */
+/* Heading/Lucida Console/H3 */
 font-family: "Lucida Console";
 font-size: 36px;
 font-style: normal;
