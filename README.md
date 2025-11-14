@@ -33,7 +33,8 @@ You may use any frontend stack. Blazor is preferred
 
 ## Acceptance Criteria
 - Page shows header with logo + title and “Contract Summary”
-- 4 instances of the same Accordion component rendered
+- 2 instances of the same Accordion component rendered
+- If text exceeds the component width, show “…”
 - Clicking the chevron expands/collapses; chevron indicates state change
 - Expanded content includes all five fields with correct values and flag icon
 - Desktop: 2-column grid; Mobile: 1-column; no layout breakage
@@ -47,7 +48,7 @@ You may use any frontend stack. Blazor is preferred
 color: var(--text-highlight, #1F1F1F);
 
 /* Heading/Almarena mono/H3 */
-font-family: "Almarena Mono";
+font-family: "Lucida Console";
 font-size: 36px;
 font-style: normal;
 font-weight: 300;
@@ -59,7 +60,7 @@ letter-spacing: -0.36px;
 color: var(--text-primary, #3D3D3D);
  
 /* Title/M-bold */
-font-family: Almarena;
+font-family: Lucida Console;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
@@ -71,7 +72,7 @@ letter-spacing: -0.2px;
 color: var(--text-primary, #3D3D3D);
  
 /* Title/S-bold */
-font-family: Almarena;
+font-family: Lucida Console;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
