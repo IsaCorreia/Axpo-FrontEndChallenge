@@ -34,7 +34,7 @@ You may use any frontend stack. Blazor is preferred
 ## Acceptance Criteria
 - Page shows header with logo + title and “Contract Summary”
 - 2 instances of the same Accordion component rendered
-- If text exceeds the component width, show “…”
+- Truncate overflowing text (with ellipsis “…”) and provide the complete value in a tooltip on hover
 - Clicking the chevron expands/collapses; chevron indicates state change
 - Expanded content includes all five fields with correct values and flag icon
 - Desktop: 2-column grid; Mobile: 1-column; no layout breakage
