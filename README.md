@@ -60,7 +60,7 @@ letter-spacing: -0.36px;
 color: var(--text-primary, #3D3D3D);
  
 /* Title/M-bold */
-font-family: Lucida Console;
+font-family: "Lucida Console";
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
@@ -72,7 +72,7 @@ letter-spacing: -0.2px;
 color: var(--text-primary, #3D3D3D);
  
 /* Title/S-bold */
-font-family: Lucida Console;
+font-family: "Lucida Console";
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
