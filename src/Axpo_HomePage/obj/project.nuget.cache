@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TK1JVlQAA4Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Isa Correia\\Documents\\Coding\\axso_etrm_frontend_coding_challenge\\src\\Axpo_HomePage\\Axpo_HomePage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Isa Correia\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.0\\microsoft.aspnetcore.app.internal.assets.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
