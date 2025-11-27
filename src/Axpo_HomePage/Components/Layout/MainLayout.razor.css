@@ -1,3 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background: whitesmoke;
+  font-family: monospace;
+  padding: 24px;
+}
+
+.summary-title {
+  font-weight: 600;
+  padding: 24px;
+  box-shadow: 0 -1px 2px lightgray;
+}
+
 .overview-collection {
   display: flex;
 }
