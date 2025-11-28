@@ -4,11 +4,12 @@
 }
 
 .static {
+  top: 0;
+  position: sticky;
   width: 100%;
   height: 60px;
-  position: sticky;
-  top: 0;
   box-shadow: 0 1px 3px lightgray;
+  background-color: white;
 }
 
 .header {

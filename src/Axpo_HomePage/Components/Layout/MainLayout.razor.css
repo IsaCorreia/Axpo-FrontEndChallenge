@@ -1,28 +1,60 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .title {
   background: whitesmoke;
-  font-family: monospace;
+  color: var(--text-highlight, #1f1f1f);
   padding: 24px;
+  /* Heading/Lucida Console/H3 */
+  font-family: "Lucida Console";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%; /* 39.6px */
+  letter-spacing: -0.36px;
 }
 
 .summary-title {
-  font-weight: 600;
   padding: 24px;
   box-shadow: 0 -1px 2px lightgray;
+  color: var(--text-primary, #3d3d3d);
+  /* Title/M-bold */
+  font-family: "Lucida Console";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: -0.2px;
 }
 
-.overview-collection {
-  display: flex;
+/* Desktop */
+@media (min-width: 1200px) {
+  .overview-collection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+  }
 }
 
-@media (max-width: 640.98px) {
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .overview-collection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+  }
 }
 
-@media (min-width: 641px) {
+/* Mobile */
+@media (max-width: 767) {
+  .overview-collection {
+    display: inline;
+    width: 100%;
+  }
 }
 
 #blazor-error-ui {

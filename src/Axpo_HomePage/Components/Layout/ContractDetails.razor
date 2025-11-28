@@ -1,36 +1,46 @@
+@using System.Reflection.Metadata
+@using Microsoft.VisualBasic
 @rendermode InteractiveServer
 
 <div class='details'>
     <div class='details-header'>
-        <p>Overview</p> <img src="media\icons\chevron_up.svg" />
+        <p>Overview</p>
+        <img class="@(ShouldCollapse ? "point-down" : "point-up")" @onclick="() => toggleCollapse()"
+            src="media\icons\chevron_up.svg" />
     </div>
-    <div class='details-cols'>
-        <div class='details-col'>
-            <div class='details-info'>
-                <p class='details-info-title'>Contract Type</p>
-                <p class='details-info-data'>Existing Client - New Business</p>
+    @if (!ShouldCollapse)
+    {
+        <div class="details-cols">
+
+            <div class='details-col'>
+                <div class='details-info'>
+                    <p class='details-info-title' title="Contract Type">Contract Type</p>
+                    <p class='details-info-data' title="Existing Client - New Business">Existing Client - New Business</p>
+                </div>
+                <div class='details-info'>
+                    <p class='details-info-title' title="Country">Country</p>
+                    <p class='details-info-data' title="France"><img src="media\icons\FR.svg" />France</p>
+                </div>
+                <div class='details-info'>
+                    <p class='details-info-title' title="Period">Period</p>
+                    <p class='details-info-data' title="01/01/2023 - 31/12/2027">01/01/2023 - 31/12/2027</p>
+                </div>
             </div>
-            <div class='details-info'>
-                <p class='details-info-title'>Country</p>
-                <div class='details-info-data'><img src="media\icons\FR.svg" /><p>France</p></div>
-            </div>
-            <div class='details-info'>
-                <p class='details-info-title'>Period</p>
-                <p class='details-info-data'>01/01/2023 - 31/12/2027</p>
+            <div class='details-col'>
+                <div class='details-info'>
+                    <p class='details-info-title' title="Commodity">Commodity</p>
+                    <p class='details-info-data' title="Power">Power</p>
+                </div>
+                <div class='details-info'>
+                    <p class='details-info-title' title="Signature Date">Signature Date</p>
+                    <p class='details-info-data' title="24/04/2027">24/04/2027</p>
+                </div>
             </div>
         </div>
-        <div class='details-col'>
-            <div class='details-info'>
-                <p class='details-info-title'>Commodity</p>
-                <p class='details-info-data'>Power</p>
-            </div>
-            <div class='details-info'>
-                <p class='details-info-title'>Signature Date</p>
-                <p class='details-info-data'>24/04/2027</p>
-            </div>
-        </div>
-    </div>
+    }
 </div>
 
 @code {
+    bool ShouldCollapse = false;
+    public void toggleCollapse() => ShouldCollapse = !ShouldCollapse;
 }
