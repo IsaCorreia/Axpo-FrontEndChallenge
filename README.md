@@ -39,7 +39,7 @@ You may use any frontend stack. Blazor is preferred
 
 - [x] Page shows header with logo + title and “Contract Summary”
 - [x] 2 instances of the same Accordion component rendered
-- [ ] Truncate overflowing text (with ellipsis “…”) and provide the complete value in a tooltip on hover
+- [x] Truncate overflowing text (with ellipsis “…”) and provide the complete value in a tooltip on hover
 - [x] Clicking the chevron expands/collapses; chevron indicates state change
 - [x] Expanded content includes all five fields with correct values and flag icon
 - [x] Desktop: 2-column grid; Mobile: 1-column; no layout breakage
