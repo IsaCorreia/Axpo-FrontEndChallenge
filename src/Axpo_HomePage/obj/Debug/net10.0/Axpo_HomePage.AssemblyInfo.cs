@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Axpo_HomePage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b18e468b08be505b4ab43733bdfaa3a6dcfe3f35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e74eeaa39f5e1924165324f8306509744766f6a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Axpo_HomePage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Axpo_HomePage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -26,10 +26,6 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa Correia/Documents/Coding/axso_etrm_frontend_coding_challenge/src/Axpo_HomePage/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Isa Correia/Documents/Coding/axso_etrm_frontend_coding_challenge/src/Axpo_HomePage/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,10 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa Correia/Documents/Coding/axso_etrm_frontend_coding_challenge/src/Axpo_HomePage/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Isa Correia/Documents/Coding/axso_etrm_frontend_coding_challenge/src/Axpo_HomePage/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,13 +46,17 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Isa Correia/Documents/Coding/axso_etrm_frontend_coding_challenge/src/Axpo_HomePage/Components/Layout/ContractDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQ29udHJhY3REZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-hh3w3oj3le
+
+[C:/Users/Isa Correia/Documents/Coding/axso_etrm_frontend_coding_challenge/src/Axpo_HomePage/Components/Layout/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcSGVhZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-luk8hh8kf6
+
 [C:/Users/Isa Correia/Documents/Coding/axso_etrm_frontend_coding_challenge/src/Axpo_HomePage/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-jtf9sxov92
-
-[C:/Users/Isa Correia/Documents/Coding/axso_etrm_frontend_coding_challenge/src/Axpo_HomePage/Components/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-2j95ywiey3
 
 [C:/Users/Isa Correia/Documents/Coding/axso_etrm_frontend_coding_challenge/src/Axpo_HomePage/Components/Layout/ReconnectModal.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUmVjb25uZWN0TW9kYWwucmF6b3I=
